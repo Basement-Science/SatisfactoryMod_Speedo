@@ -1,11 +1,17 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+Binaries/
+Metadata/Crypto.json
+
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+
+# Don't commit PDB files for now because they take too much space
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -41,16 +47,12 @@
 *.VC.db
 *.VC.opendb
 
-# Precompiled Assets
-SourceArt/**/*.png
-SourceArt/**/*.tga
-
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
 
 # Builds
 Build/*
+CMakeLists.txt
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -68,7 +70,14 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+.idea
+
+# Wwise
+*_WwiseProject/*
+Wwise/*
+Developer/RiderLink/*
+
+*.pak

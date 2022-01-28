@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1",
+	"SemVersion": "1.0.1",
+	"FriendlyName": "SpeedoSama",
+	"Description": "Speedometer HUD addon",
+	"Category": "Modding",
+	"CreatedBy": "BasementGaming",
+	"CreatedByURL": "https://github.com/Basement-Science",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"AcceptsAnyRemoteVersion": true,
+	"Plugins": [
+    {
+      "Name": "SML",
+      "SemVersion": "^3.0.0",
+	  "bIsOptional": false,
+	  "Enabled": true
+    }
+  ]
+}
