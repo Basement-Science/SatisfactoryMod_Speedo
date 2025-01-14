@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.5",
-	"SemVersion": "1.0.5",
+	"VersionName": "1.1.0",
+	"SemVersion": "1.1.0",
 	"FriendlyName": "SpeedoSama",
 	"Description": "Speedometer HUD addon",
 	"Category": "Modding",
@@ -19,11 +19,10 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.6.0",
+			"SemVersion": "^3.9.0",
 			"bIsOptional": false,
-			"Enabled": true,
-			"BasePlugin": false
+			"Enabled": true
 		}
 	],
-	"RemoteVersionRange": ""
+	"GameVersion": ">=383729"
 }
