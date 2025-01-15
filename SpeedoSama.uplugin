@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.1.0",
-	"SemVersion": "1.1.0",
-	"FriendlyName": "SpeedoSama",
+	"VersionName": "1.1.1",
+	"SemVersion": "1.1.1",
+	"FriendlyName": "Speedo",
 	"Description": "Speedometer HUD addon",
 	"Category": "Modding",
 	"CreatedBy": "BasementGaming",
